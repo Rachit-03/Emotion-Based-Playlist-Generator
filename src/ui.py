@@ -7,7 +7,7 @@ def get_base64_of_image(image_path):
     with open(image_path, "rb") as img_file:
         return base64.b64encode(img_file.read()).decode()
 
-image_path = "E:\\Study\\Project\\EBPG\\background.jpg" 
+image_path = "E:\\Study\\Project\\Emotion-Based-Playlist-Generator\\background.jpg"
 
 encoded_image = get_base64_of_image(image_path)
 
