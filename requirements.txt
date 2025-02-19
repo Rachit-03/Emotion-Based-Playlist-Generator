@@ -1,7 +1,9 @@
 transformers
 langchain
 openai
-torch
+torch==2.1.0
+torchvision==0.16.0
+torchaudio==2.1.0
 spacy
 nltk
 spotipy
@@ -9,7 +11,4 @@ streamlit
 fastapi
 uvicorn
 python-dotenv
-torch==2.1.0
-torchvision==0.16.0
-torchaudio==2.1.0
 sentencepiece
