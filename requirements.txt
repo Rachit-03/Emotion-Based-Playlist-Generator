@@ -1,0 +1,11 @@
+transformers
+langchain
+openai
+torch
+spacy
+nltk
+spotipy
+streamlit
+fastapi
+uvicorn
+python-dotenv
