@@ -1,6 +1,11 @@
 from fastapi import FastAPI
 from sentiment_analysis import detect_emotion
 from spotify_api import get_playlist_recommendation
+import streamlit as st
+from streamlit.web.bootstrap import _on_page_load
+
+# Disable file watcher for torch
+st.runtime.uploaded_file_manager._file_watcher = None
 
 app = FastAPI()
 
