@@ -1,9 +1,8 @@
 streamlit
-torch==2.1.0
-torchvision==0.16.0
-torchaudio==2.1.0
+torch
+torchvision
+torchaudio
 transformers
-sentencepiece
 langchain
 openai
 spacy
@@ -12,3 +11,4 @@ spotipy
 fastapi
 uvicorn
 python-dotenv
+sentencepiece
